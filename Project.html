@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <style>
+            body{
+                background-color: green;
+                color: lightgreen;
+                text-align: center;
+                font-family: fantasy;
+            }
+
+            form{
+                background-color: limegreen;
+                width: 350px;
+                margin: auto;
+                padding: 15px;
+                border-radius: 7px;
+            }
+
+            .submit{
+                width: 150px;
+                height: 75px;
+                border-radius: 75px;
+                background:radial-gradient(rgb(86, 233, 86) 50%,rgb(3, 255, 3) 100% );   
+                border: blue groove 1px;     
+            }
+
+            h1{
+                color: white;
+            }
+        </style>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Form</title>
+    </head>
+    <body>
+        
+        <h1><i>Please fill this form</i></h1>
+        <form action="Session22[2].html" target="_blank">
+                <label for="first-name">First Name : </label>
+                <input required type="text">
+                <br> <br><label for="middle-name">Middle Name : </label>
+                <input type="text">
+                <br> <br><label for="last-name">Last Name : </label>
+                <input required type="text">
+                <br> <br><label for="e-mail">Enter E-Mail : </label>
+                <input placeholder="abc@gmail.com" required type="text">
+                <br> <br><label for="password">Enter Password : </label>
+                <input placeholder="Enter Password" required type="password">
+                <br> <br><label for="gender">Select gender : </label>
+                <br> <br><input required type="radio" name="gender"><label for="Male">Male</label>
+                <br> <br><input required type="radio" name="gender"><label for="Female">Female</label>
+                <br> <br><label for="date of birth">Date of Birth : </label>
+                <input required type="date"> <br> <br>
+                <label for="time">Time of Birth : </label>
+                <input type="time"> <br> <br>
+                <input required class="submit" type="submit" value="Submit Form"> <br> <br>
+        </form>
+    </body>
+</html>
